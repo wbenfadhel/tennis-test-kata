@@ -24,6 +24,13 @@ public class Player {
                 this.setScore=setScore;
         }
 
+        public int getScore() {
+                return score;
+        }
+
+        public void setScore(int score) {
+                this.score = score;
+        }
         public String getName() {
                 return name;
         }
@@ -40,29 +47,6 @@ public class Player {
                 this.games = games;
         }
 
-        public List<Set> getSets() {
-                return sets;
-        }
-
-        public void setSets(List<Set> sets) {
-                this.sets = sets;
-        }
-
-        public int getScore() {
-                return score;
-        }
-
-        public void setScore(int score) {
-                this.score = score;
-        }
-
-        public int getSetScore() {
-                return setScore;
-        }
-
-        public void setSetScore(int setScore) {
-                this.setScore = setScore;
-        }
 
         public int getWinnedGames() {
                 return winnedGames;
@@ -78,6 +62,42 @@ public class Player {
 
         public void setWinnedSets(int winnedSets) {
                 this.winnedSets = winnedSets;
+        }
+
+        public List<Set> getSets() {
+                return sets;
+        }
+
+        public void setSets(List<Set> sets) {
+                this.sets = sets;
+        }
+
+        public int getSetScore() {
+                return setScore;
+        }
+
+        public void setSetScore(int setScore) {
+                this.setScore = setScore;
+        }
+
+        public boolean isWinner(){
+                return this.getWinnedSets()>=3;
+        }
+
+
+
+        @Override
+        public boolean equals(Object o) {
+                if (this == o) return true;
+                if (o == null || getClass() != o.getClass()) return false;
+                Player player = (Player) o;
+                return Objects.equals(name, player.name) &&
+                        Objects.equals(games, player.games);
+        }
+
+        @Override
+        public int hashCode() {
+                return Objects.hash(name, games);
         }
 }
 

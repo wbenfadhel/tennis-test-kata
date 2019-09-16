@@ -43,15 +43,15 @@ public class TennisGameServiceTest {
 
     @Test
     void firstCaseKataStatusTest(){
-        //initialise match
-        Match match=initializeMatch();
-        //match begins
-        // reproduce the first example of kata
-        // simulate the first set
-        match=addPoints(5*3, match.getPlayer1(),match);
-        match=addPoints(3, match.getPlayer2(),match);
-        match=addPoints(3, match.getPlayer1(),match);
-        //simulate the second set
+         //initialise match
+         Match match=initializeMatch();
+         //match begins
+         // reproduce the first example of kata
+         // simulate the first set
+         match=addPoints(5*3, match.getPlayer1(),match);
+         match=addPoints(3, match.getPlayer2(),match);
+         match=addPoints(3, match.getPlayer1(),match);
+         //simulate the second set
         match=addPoints(5*3, match.getPlayer1(),match);
         match=addPoints(5*3, match.getPlayer2(),match);
         match=addPoints(2*3, match.getPlayer1(),match);
@@ -176,5 +176,15 @@ public class TennisGameServiceTest {
         }
         return match;
     }
+
+
+    @Test
+    void testFirstCase(){
+
+    }
+
+
+   // private Match
+
 
 }

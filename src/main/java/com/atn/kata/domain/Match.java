@@ -28,14 +28,6 @@ public class Match {
         this.games = games;
     }
 
-    public List<Set> getSets() {
-        return sets;
-    }
-
-    public void setSets(List<Set> sets) {
-        this.sets = sets;
-    }
-
     public Player getPlayer1() {
         return player1;
     }
@@ -56,8 +48,37 @@ public class Match {
         return matchStatus;
     }
 
-    public void setMatchStatus(String matchStatus) {
-        this.matchStatus = matchStatus;
+    public void setMatchStatus(Player player) {
+        if(finalScore.size()>=3){
+            this.matchStatus=player.getName()+" "+MatchStatus.WINS.getValue();
+        }else {
+            this.matchStatus = MatchStatus.IN_PROGRESS.getValue();
+        }
+    }
+
+    public Game getLastGame(){
+        return this.games.get(games.size()-1);
+    }
+
+    public Set getLastSet(){
+        return this.sets.get(sets.size()-1);
+    }
+
+    public String getScore(String action){
+        //init players for a new set
+         String toReturn="("+player1.getGames().size()+"-"+player2.getGames().size()+")";
+         if("INIT".equals(action)){
+             player1.setWinnedGames(0);
+             player2.setWinnedGames(0);
+             player1.setGames(new ArrayList<>());
+             player2.setGames(new ArrayList<>());}
+        return toReturn;
+    }
+
+    public List<Set> getSets() {
+        if(sets!= null){return sets;}
+        else{return new ArrayList<>();
+        }
     }
 
     public List<String> getFinalScore() {
@@ -66,6 +87,37 @@ public class Match {
 
     public void setFinalScore(List<String> finalScore) {
         this.finalScore = finalScore;
+    }
+
+    public void setSets(List<Set> sets) {
+        this.sets = sets;
+    }
+
+
+    public String getSetsAsString(){
+        String result="";
+        for (Set s:sets) {
+            result=result+s.toString();
+        }
+        return result;
+    }
+
+
+    public Player getGameWinner(){
+       int  winnedGames1=player1.getWinnedGames();
+       int  winnedGames2= player2.getWinnedGames();
+       if(winnedGames1>=6 || winnedGames2>=6){
+           if(winnedGames1-winnedGames2>=2){
+               player1.setWinnedGames(0);
+               player2.setWinnedGames(0);
+               return player1;
+           }else if(winnedGames2-winnedGames1>=2){
+               player1.setWinnedGames(0);
+               player2.setWinnedGames(0);
+               return player2;
+           }else{return null;}
+       }
+        return  null;
     }
 }
 

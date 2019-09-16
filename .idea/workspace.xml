@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c7be6f9c-4f3b-4afa-8b99-384e49a5ff88" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/GameStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/GameStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Match.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/MatchStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/MatchStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/services/TennisGameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/services/TennisGameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atn/kata/services/TennisGameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atn/kata/services/TennisGameServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,12 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-232">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="-1034">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,66 +46,64 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Match.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
+                <element signature="e#558#559#0" expanded="true" />
                 <element signature="e#586#587#0" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
                 <element signature="e#700#701#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1170#1171#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#848#849#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#962#963#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1380#1381#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1461#1462#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="e#2083#2084#0" expanded="true" />
+                <element signature="e#2141#2142#0" expanded="true" />
+                <element signature="e#2185#2186#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+                <element signature="e#2260#2261#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/MatchStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/GameStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -107,34 +112,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1400#1401#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1537#1538#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#1650#1651#0" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#1790#1791#0" expanded="true" />
                 <element signature="e#1842#1843#0" expanded="true" />
               </folding>
             </state>
@@ -144,25 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Set.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding>
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#662#663#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="675">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -180,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Set.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Match.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java" />
       </list>
     </option>
   </component>
@@ -261,17 +226,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568613632747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568615096736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -285,7 +253,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TennisGameServiceTest">
+    <configuration name="TennisGameServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tennis-test-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atn.kata.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atn.kata.services" />
+      <option name="MAIN_CLASS_NAME" value="com.atn.kata.services.TennisGameServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisGameServiceTest.firstCaseKataStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tennis-test-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atn.kata.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atn.kata.services" />
+      <option name="MAIN_CLASS_NAME" value="com.atn.kata.services.TennisGameServiceTest" />
+      <option name="METHOD_NAME" value="firstCaseKataStatusTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TennisGameServiceTest.secondCaseKataDeuceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tennis-test-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atn.kata.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atn.kata.services" />
+      <option name="MAIN_CLASS_NAME" value="com.atn.kata.services.TennisGameServiceTest" />
+      <option name="METHOD_NAME" value="secondCaseKataDeuceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tennis-test-kata" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atn.kata.StartApplication" />
@@ -293,6 +308,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TennisGameServiceTest" />
+        <item itemvalue="JUnit.TennisGameServiceTest.secondCaseKataDeuceTest" />
+        <item itemvalue="JUnit.TennisGameServiceTest.firstCaseKataStatusTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -304,53 +326,105 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568609477351</updated>
-      <workItem from="1568609478836" duration="755000" />
+      <workItem from="1568609478836" duration="1000000" />
+      <workItem from="1568614105312" duration="142000" />
+      <workItem from="1568614282102" duration="110000" />
+      <workItem from="1568614458374" duration="339000" />
+      <workItem from="1568615034774" duration="202000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TennisGameServiceTest - 2019.09.16 at 08h 08m 50s.xml">
+      <configuration name="TennisGameServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest - 2019.09.16 at 08h 11m 39s.xml">
+      <configuration name="TennisGameServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest - 2019.09.16 at 08h 12m 11s.xml">
+      <configuration name="TennisGameServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest - 2019.09.16 at 08h 12m 18s.xml">
+      <configuration name="TennisGameServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest_firstCaseKataStatusTest - 2019.09.16 at 08h 12m 34s.xml">
+      <configuration name="TennisGameServiceTest.firstCaseKataStatusTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest - 2019.09.16 at 08h 18m 50s.xml">
+      <configuration name="TennisGameServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest_secondCaseKataDeuceTest - 2019.09.16 at 08h 19m 48s.xml">
+      <configuration name="TennisGameServiceTest.secondCaseKataDeuceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TennisGameServiceTest - 2019.09.16 at 08h 24m 42s.xml">
+      <configuration name="TennisGameServiceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="755000" />
+    <option name="totallyTimeSpent" value="1793000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982457" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32982457" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32982457" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32982457" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32982457" />
+      <window_info anchor="bottom" id="Messages" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gitignore.txt">
@@ -362,99 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1537#1538#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1650#1651#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1842#1843#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -463,32 +446,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
+            <element signature="e#558#559#0" expanded="true" />
             <element signature="e#586#587#0" expanded="true" />
             <element signature="e#632#633#0" expanded="true" />
             <element signature="e#666#667#0" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1461#1462#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2141#2142#0" expanded="true" />
+            <element signature="e#2185#2186#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2260#2261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/MatchStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/GameStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#1790#1791#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atn/kata/domain/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.3.2/junit-platform-commons-1.3.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/atn/kata/services/TennisGameServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1034">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -496,9 +537,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>tennis-test-kata</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
