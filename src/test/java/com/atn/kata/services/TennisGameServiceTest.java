@@ -1,7 +1,7 @@
 package com.atn.kata.services;
 
 import com.atn.kata.domain.*;
-import com.sun.tools.javac.util.Assert;
+import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -57,8 +57,8 @@ public class TennisGameServiceTest {
         //similate the third set
         match=addPoints(4, match.getPlayer1(),match);
         match=addPoints(2, match.getPlayer2(),match);
-        Assert.check("(15-30)".equals(match.getLastGame().getCurrentGameStatus()));
-        Assert.check(MatchStatus.IN_PROGRESS.getValue().equals(match.getMatchStatus()));
+        Assert.assertEquals("(15-30)",match.getLastGame().getCurrentGameStatus());
+        Assert.assertEquals(MatchStatus.IN_PROGRESS.getValue(),match.getMatchStatus());
         //Print match result
         System.out.println("Exemple1");
         printResult(match);
@@ -84,8 +84,8 @@ public class TennisGameServiceTest {
         match=addPoints(1, match.getPlayer1(),match);
         match=addPoints(1, match.getPlayer2(),match);
 
-        Assert.check(GameStatus.DEUCE.getValue().equals(match.getLastGame().getCurrentGameStatus()));
-        Assert.check(MatchStatus.IN_PROGRESS.getValue().equals(match.getMatchStatus()));
+        Assert.assertEquals(GameStatus.DEUCE.getValue(),match.getLastGame().getCurrentGameStatus());
+        Assert.assertEquals(MatchStatus.IN_PROGRESS.getValue(),match.getMatchStatus());
         //Print match result
         System.out.println("Exemple2");
         printResult(match);
@@ -110,8 +110,8 @@ public class TennisGameServiceTest {
         match=addPoints(2, match.getPlayer2(),match);
         match=addPoints(1, match.getPlayer1(),match);
 
-        Assert.check(GameStatus.ADVANTAGE.getValue().equals(match.getLastGame().getCurrentGameStatus()));
-        Assert.check(MatchStatus.IN_PROGRESS.getValue().equals(match.getMatchStatus()));
+        Assert.assertEquals(GameStatus.ADVANTAGE.getValue(),match.getLastGame().getCurrentGameStatus());
+        Assert.assertEquals(MatchStatus.IN_PROGRESS.getValue(),match.getMatchStatus());
         //Print match result
         System.out.println("Exemple3");
         printResult(match);
@@ -134,7 +134,7 @@ public class TennisGameServiceTest {
         //simulate the third set
         match=addPoints(6*3, match.getPlayer1(),match);
 
-        Assert.check(match.getMatchStatus().equals("Player1 "+MatchStatus.WINS.getValue()));
+        Assert.assertEquals("Player1 "+MatchStatus.WINS.getValue(),match.getMatchStatus());
         //Print match result
         System.out.println("Exemple4");
         printResult(match);
@@ -164,7 +164,8 @@ public class TennisGameServiceTest {
         //simulate fifth set
         match=addPoints(4*3, match.getPlayer1(),match);
         match=addPoints(6*3, match.getPlayer2(),match);
-        Assert.check(match.getMatchStatus().equals("Player2 "+MatchStatus.WINS.getValue()));
+
+        Assert.assertEquals("Player2 "+MatchStatus.WINS.getValue(),match.getMatchStatus());
 
         //Print match result
         System.out.println("Exemple5");
