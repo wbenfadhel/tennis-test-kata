@@ -37,7 +37,6 @@ public class TennisGameServiceTest {
         System.out.println("Score :"+match.getFinalScore()+match.getScore("NOINT"));
         System.out.println("Current game status:"+ match.getLastGame().getCurrentGameStatus());
         System.out.println("Match Status: " +match.getMatchStatus());
-        System.out.println(match);
     }
 
 
@@ -61,6 +60,7 @@ public class TennisGameServiceTest {
         Assert.check("(15-30)".equals(match.getLastGame().getCurrentGameStatus()));
         Assert.check(MatchStatus.IN_PROGRESS.getValue().equals(match.getMatchStatus()));
         //Print match result
+        System.out.println("Exemple1");
         printResult(match);
     }
 
@@ -87,6 +87,7 @@ public class TennisGameServiceTest {
         Assert.check(GameStatus.DEUCE.getValue().equals(match.getLastGame().getCurrentGameStatus()));
         Assert.check(MatchStatus.IN_PROGRESS.getValue().equals(match.getMatchStatus()));
         //Print match result
+        System.out.println("Exemple2");
         printResult(match);
     }
 
@@ -112,6 +113,7 @@ public class TennisGameServiceTest {
         Assert.check(GameStatus.ADVANTAGE.getValue().equals(match.getLastGame().getCurrentGameStatus()));
         Assert.check(MatchStatus.IN_PROGRESS.getValue().equals(match.getMatchStatus()));
         //Print match result
+        System.out.println("Exemple3");
         printResult(match);
     }
 
@@ -134,6 +136,7 @@ public class TennisGameServiceTest {
 
         Assert.check(match.getMatchStatus().equals("Player1 "+MatchStatus.WINS.getValue()));
         //Print match result
+        System.out.println("Exemple4");
         printResult(match);
     }
 
@@ -164,6 +167,7 @@ public class TennisGameServiceTest {
         Assert.check(match.getMatchStatus().equals("Player2 "+MatchStatus.WINS.getValue()));
 
         //Print match result
+        System.out.println("Exemple5");
         printResult(match);
     }
 
