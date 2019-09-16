@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 
@@ -54,9 +55,13 @@ public class TennisGameServiceTest {
         match=addPoints(5*3, match.getPlayer1(),match);
         match=addPoints(5*3, match.getPlayer2(),match);
         match=addPoints(2*3, match.getPlayer1(),match);
-        //similate the third set
+        //simulate the third set
         match=addPoints(4, match.getPlayer1(),match);
         match=addPoints(2, match.getPlayer2(),match);
+
+        List<String> score= Arrays.asList("(6-1)", "(7-5)");
+        Assert.assertEquals(score,match.getFinalScore());
+        Assert.assertEquals("(1-0)",match.getScore("NOINIT"));
         Assert.assertEquals("(15-30)",match.getLastGame().getCurrentGameStatus());
         Assert.assertEquals(MatchStatus.IN_PROGRESS.getValue(),match.getMatchStatus());
         //Print match result
@@ -84,6 +89,9 @@ public class TennisGameServiceTest {
         match=addPoints(1, match.getPlayer1(),match);
         match=addPoints(1, match.getPlayer2(),match);
 
+        List<String> score= Arrays.asList("(6-1)", "(7-5)");
+        Assert.assertEquals(score,match.getFinalScore());
+        Assert.assertEquals("(0-0)",match.getScore("NOINIT"));
         Assert.assertEquals(GameStatus.DEUCE.getValue(),match.getLastGame().getCurrentGameStatus());
         Assert.assertEquals(MatchStatus.IN_PROGRESS.getValue(),match.getMatchStatus());
         //Print match result
@@ -110,6 +118,9 @@ public class TennisGameServiceTest {
         match=addPoints(2, match.getPlayer2(),match);
         match=addPoints(1, match.getPlayer1(),match);
 
+        List<String> score= Arrays.asList("(6-1)", "(7-5)");
+        Assert.assertEquals(score,match.getFinalScore());
+        Assert.assertEquals("(0-0)",match.getScore("NOINIT"));
         Assert.assertEquals(GameStatus.ADVANTAGE.getValue(),match.getLastGame().getCurrentGameStatus());
         Assert.assertEquals(MatchStatus.IN_PROGRESS.getValue(),match.getMatchStatus());
         //Print match result
@@ -134,6 +145,8 @@ public class TennisGameServiceTest {
         //simulate the third set
         match=addPoints(6*3, match.getPlayer1(),match);
 
+        List<String> score= Arrays.asList("(6-1)", "(7-5)","(6-0)");
+        Assert.assertEquals(score,match.getFinalScore());
         Assert.assertEquals("Player1 "+MatchStatus.WINS.getValue(),match.getMatchStatus());
         //Print match result
         System.out.println("Exemple4");
@@ -160,11 +173,15 @@ public class TennisGameServiceTest {
         match=addPoints(6*3, match.getPlayer2(),match);
         //simulate fourth set
         match=addPoints(5*3, match.getPlayer1(),match);
-        match=addPoints(7*3, match.getPlayer2(),match);
+        match=addPoints(5*3, match.getPlayer2(),match);
+        match=addPoints(3, match.getPlayer1(),match);
+        match=addPoints(2*3, match.getPlayer2(),match);
         //simulate fifth set
         match=addPoints(4*3, match.getPlayer1(),match);
         match=addPoints(6*3, match.getPlayer2(),match);
 
+        List<String> score= Arrays.asList("(6-1)", "(7-5)", "(2-6)", "(6-7)", "(4-6)");
+        Assert.assertEquals(score,match.getFinalScore());
         Assert.assertEquals("Player2 "+MatchStatus.WINS.getValue(),match.getMatchStatus());
 
         //Print match result

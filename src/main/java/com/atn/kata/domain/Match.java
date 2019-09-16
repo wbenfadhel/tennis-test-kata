@@ -107,6 +107,10 @@ public class Match {
        int  winnedGames1=player1.getWinnedGames();
        int  winnedGames2= player2.getWinnedGames();
        if(winnedGames1>=6 || winnedGames2>=6){
+           //tie break
+           if(winnedGames1==7){return player1;}
+           if(winnedGames2==7){return player2;}
+           //deux points de différence
            if(winnedGames1-winnedGames2>=2){
                player1.setWinnedGames(0);
                player2.setWinnedGames(0);
